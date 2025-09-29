@@ -5,269 +5,358 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  
+</head>
 <body>
   <video class="video-background" autoplay loop muted playsinline>
     <source src="vid/13.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video>
+  </video>
+
   <nav class="nav">
     <div class="pfp">
-      <img src="img/pfp.jpg" alt="pfp" width="90px"> 
-      <h1>Fardan Badriadin</h1>
+      <img src="img/pfp.jpg" alt="pfp" width="90px">
+      <h1>Fardan Badriadin<br></h1>
+      <p>SMKN 1 Majalengka</p>
     </div>
-    <div class="hamburger">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-  <!-- menu normal -->
-  <ul class="nav-menu">
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#Skills">Skill</a></li>
-      <li><a href="#Contact">Contact</a></li>
-      <li><a href="#Gallery">Galery</a></li>
-  </ul>
-</nav>
+
+    <div class="menu" id="menu">
+      <a href="#Home">Home</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Contact">Contact</a>
+      <a href="#Gallery">Gallery</a>
+    </div>
+  </nav>
 
   <section id="Home">
-  <section class="cover">
-     <div class="bio">
+    <section class="cover">
+      <div class="bio">
         <img src="img/profile.jpg" alt="me">
       </div>
+
       <div class="bio-text">
         <div class="decoration1"></div>
-       <h1>Hola!</h1>
-       <p>Name : Fardan Badriadin
-         <br><br>
-         Age : 20
-         <br><br>
-         Address : Jl. Kebon Jeruk 1 No. 1
-         <br><br>
-         Email : jevildelta900@gmail.com
-       </p>
-       <br>
-       <img src="img/Something.jpg" alt="" width="400x" height="130px">
-     </div>
+        <h1>Hola!</h1>
+        <br><br>
+        <p>
+          My name is Fardan
+          <br><br>
+          <p>I'm a web Developer!</p>
+          <br>
+          Email : jevildelta900@gmail.com
+        </p>
+        <br>
+        <a href="https://www.reddit.com/r/ENGLISH/comments/1lb3iyd/what_the_job_application_meme_mean_tiktok/#lightbox" target="_blank">
+          <img src="assets/images/linkedin-svgrepo-com.svg" alt="">
+        </a>
+        <br>
+        <a href="https://www.tiktok.com/@fanley.maybe" target="_blank">
+          <img src="assets/images/tiktok-svgrepo-com.svg" alt="">
+        </a>
+        <a href="https://www.instagram.com/prdn.ig/" target="_blank">
+          <img src="assets/images/instagram-logo-facebook-2-svgrepo-com.svg" alt="">
+        </a>
+      </div>
     </section>
   </section>
+
+  <section>
+    <div class="asalsekolah">
+      <h2>Asal Sekolah</h2>
+      <br>
+      <p>-MI Hidayatul Athfal</p>
+      <p>- SDN Sindangkasih 2</p>
+      <p>-MTS DaarulUluum PUI MJLK</p>
+      <p>-SMKN 1 Majalengka</p>  
+    </div>
+  </section>
+
+  <br><br><br><br>
+
   <section id="Skills">
-  <br><br><br><br>
+    <br><br><br><br>
+    <div class="skills">
+      <h1>Skills</h1>
+    </div>
 
-
-  <div class="skills">
-    <h1>Skills</h1>
-  </div>
-
- <br>
-<div class="row-text"></div>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <div class="skills-img">
-          <img src="img/art.jfif" alt="">
+    <br>
+    <div class="row-text"></div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/art.jfif" alt="">
+          </div>
+          <h2>Drawing</h2>
         </div>
-        <h2>Drawing</h2>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/archery.jfif" alt="">
+          </div>
+          <h2>Archery</h2>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/boxing.jfif" alt="">
+          </div>
+          <h2>Boxing</h2>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/Programming.jfif" alt="">
+          </div>
+          <h2>Programming</h2>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/Multilanguage.jfif" alt="">
+          </div>
+          <h2>Multilanguage</h2>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/Public speaking.jfif" alt="">
+          </div>
+          <h2>Public speaking</h2>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/Empathy.jfif" alt="">
+          </div>
+          <h2>Empathy</h2>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="skills-img">
+            <img src="img/Communication.jfif" alt="">
+          </div>
+          <h2>Communication</h2>
+        </div>
       </div>
     </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/archery.jfif" alt="">
+  </section>
+
+  <br><br>
+
+  <section id="Contact">
+    <div class="contact">
+      <h2>Contact</h2>
+    </div>
+    <br>
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Send to</label>
+        <select id="country" name="country">
+          <option value="Developer">Developer</option>
+          <option value="Designer">Designer</option>
+          <option value="Programmer">Programmer</option>
+        </select>
+
+        <div class="chat-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea id="messageInput" placeholder="Type message.."></textarea>
+
+            <!-- The new button with the JavaScript function -->
+            <button type="button" class="btn" onclick="checkMessage()">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="Gallery">
+    <br><br><br><br>
+    <div class="gallery">
+      <h2>Gallery</h2>
+    </div>
+
+    <div class="row-2">
+      <!-- Column 1 -->
+      <div class="column-2">
+        <img id="myImg" src="img/tenna.png" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/mikes.png" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/profile.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
       </div>
-      <h2>Archery</h2>
-    </div>
-    </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/boxing.jfif" alt="">
+
+      <!-- Column 2 -->
+      <div class="column-2">
+        <img id="myImg" src="img/oc.png" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/bigshot.PNG" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/dogday.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/miku.png" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
       </div>
-      <h2>Boxing</h2>
-    </div>
-    </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/Programming.jfif" alt="">
+
+      <!-- Column 3 -->
+      <div class="column-2">
+        <img id="myImg" src="img/karryna.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/fanley.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/abandoned.png" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/oswald.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/Something.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/Daisy.PNG" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
       </div>
-      <h2>Programming</h2>
-    </div>
-    </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/Multilanguage.jfif" alt="">
+
+      <!-- Column 4 -->
+      <div class="column-2">
+        <img id="myImg" src="img/fanley2.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/Kris.png" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/pfp.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
+        <img id="myImg" src="img/luxarn.jpg" alt="dogday">
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+        </div>
       </div>
-      <h2>Multilanguage</h2>
     </div>
+
+    <br><br><br>
+
+    <div class="animation">
+      <h2>Animation</h2>
     </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/Public speaking.jfif" alt="">
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div class="animation-video">
+      <video width="600" controls>
+        <source src="vid/DaisyAnimated.mp4" type="video/mp4">
+      </video>
+      <video width="600" controls>
+        <source src="vid/spamton.mp4" type="video/mp4">
+      </video>
+      <video width="600" controls>
+        <source src="vid/Sophia.mp4" type="video/mp4">
+      </video>
+      <br><br>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div class="blender">
+      <h2>Blender</h2>
+    </div>
+  
+    <div class="blender-img">
+      <img src="img/trees.png" alt="blender" width="600px" height="400px">
+    </div>
+    <div class="blender-img">
+      <img src="img/female.png" alt="blender" width="600px" height="400px">
+    </div>
+    <div class="blender-img">
+      <img src="img/Volt.png" alt="blender" width="600px" height="400px">
+    </div>
+  </section>
+
+  <br><br><br>
+
+  <div class="footer"></div>
+
+      <div id="imgModal" class="modal">
+      <span class="close" onclick="closeImgModal()">&times;</span>
+      <img class="modal-content" id="modalImg">
       </div>
-      <h2>Public speaking</h2>
-    </div>
-    </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/Empathy.jfif" alt="">
-      </div>
-      <h2>Empathy</h2>
-    </div>
-    </div>
-    <div class="column">
-      <div class="card"> <div class="skills-img">
-        <img src="img/Communication.jfif" alt="">
-      </div>
-      <h2>Communication</h2>
-    </div>
-    </div>
-  </div>
-</div>
-</section>
-<br><br>
 
-<section id="Contact">
-  <div class="contact">
-    <h2>Contact</h2>
-  </div>
-<br>
-  <div class="container">
-    <form action="action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-      <label for="country">Send to</label>
-      <select id="country" name="country">
-        <option value="Developer">Developer</option>
-        <option value="Designer">Designer</option>
-        <option value="Programmer">Programmer</option>
-      </select>
-
-      <div class="chat-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h1>Chat</h1>
-
-          <label for="msg"><b>Message</b></label>
-          <textarea id="messageInput" placeholder="Type message.."></textarea>
-
-          <!-- The new button with the JavaScript function -->
-          <button type="button" class="btn" onclick="checkMessage()">Send</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-      </div>
-    </form>
-  </div>
-</section>
-
-<section id="Gallery">
-  <br><br><br><br>
-<div class="gallery">
-  <h2>Gallery</h2>
-</div>
-<div class="row">
-  <div class="column">
-    <img id="myImg" src="img/dogday.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/Daisy.PNG" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/profile.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-  </div>
-  <div class="column">
-    <img id="myImg" src="img/karryna.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/pfp.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/fanley.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-  </div>
-  <div class="column">
-    <img id="myImg" src="img/fanley2.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/luxarn.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/oswald.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-  </div>
-  <div class="column">
-    <img id="myImg" src="img/luxarn2.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-    <img id="myImg" src="img/luxx.jpg" alt="dogday">
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-    </div>
-  </div>
-</div>
-
-<br><br><br>
-
-<div class="animation">
-  <h2>Animation</h2>
-</div>
-<br><br><br><br><br><br><br><br><br>
-<div class="animation-video">
-<video width="600" controls>
-  <source src="vid/DaisyAnimated.mp4" type="video/mp4">
-</video>
-<video width="600" controls>
-  <source src="vid/FanleyAnimated.mp4" type="video/mp4">
-</video>
-<video width="600" controls>
-  <source src="vid/Sophia.mp4" type="video/mp4">
-</video>
-</div>
-
-<br><br><br><br><br><br><br><br><br>
-
-<div class="blender">
- <h2>Blender</h2>
-</div>
-<br><br><br>
-  <div class="blender-img">
-    <img src="img/blender.jpg" alt="blender" width="600px" height="400px"> 
-  </div>
-</section>
-<br><br><br>
-
-          <div class="footer"></div>
-
-
-
-    <script src="script.js" defer></script>
-    <script src="script2.js"></script>
-    <script src="script3.js"></script>
-</head>
+  <script src="script.js" defer></script>
+  <script src="script2.js"></script>
+  <script src="script3.js"></script>
 </body>
 </html>
