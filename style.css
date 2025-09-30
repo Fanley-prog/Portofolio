@@ -10,6 +10,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 .video-background {
   position: fixed;
   top: 0;
@@ -124,7 +125,7 @@ nav a {
 }
 
 .decoration1 {
-  background: linear-gradient(rgb(202, 202, 202), rgb(192, 192, 192));
+  background: linear-gradient(rgb(202, 202, 202), rgb(134, 134, 134));
   height: 30px;
   width: 100%;
   margin-bottom: 20px;
@@ -150,7 +151,6 @@ nav a {
   flex-direction: column;
   height: 10vh;
   margin: 20px auto;
-
 }
 
 .bio img {
@@ -168,6 +168,29 @@ nav a {
   transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(196, 196, 196, 0.2);
 }
+.socialmedias {
+  display: flex;         /* arrange in a row */
+  gap: 10px;             /* space between icons */
+  align-items: center;   /* vertical alignment */
+  justify-content: center; /* center them under your text */
+}
+
+.youtube {
+  width: 180px;
+  height: auto;
+}
+
+.tiktok {
+  width: 80px;
+  height: auto;
+}
+
+.instagram {
+  width: 150px;
+  height: auto;
+}
+
+
 
 .cover {
   display: flex;
@@ -180,22 +203,32 @@ nav a {
   font-size: 25px;
   text-align: center;
   color: white;
-  background: linear-gradient(rgb(204, 204, 204), rgb(190, 190, 190));
-  height: 90px;
-  scroll-margin-bottom: 100px;
-  padding-top: 40px; 
+  background: linear-gradient(rgb(179, 179, 179), rgb(167, 167, 167));
+  height: 70px;
+  scroll-margin-bottom: 80px;
+  padding-top: 1  0px;
+}
+.asalsekolah-text {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  background: linear-gradient(#cacaca, rgb(196, 196, 196));
+  height: 160px; /* removed space */
+  width: 1000px;
+  margin: 90px auto 50px auto; /* top, auto left/right, bottom */
+  padding: 10px;
+  border-radius: 5%;
+  text-align: center; /* centers text inside */
 }
 
 .skills {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   color: white;
-  background: linear-gradient(rgb(204, 204, 204), rgb(190, 190, 190));
-  height: 90px;
-  scroll-margin-bottom: 100px;
-  padding-top: 40px;
+  background: linear-gradient(rgb(179, 179, 179), rgb(167, 167, 167));
+  height: 70px;
+  scroll-margin-bottom: 80px;
+  padding-top: 10px;
 }
-
 
 .skills-img {
   display: flex;
